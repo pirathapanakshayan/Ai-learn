@@ -8,32 +8,25 @@ print(age)
 print(height)
 print(is_student)
 
-#num_text = "42"
-#print(num_text + "8")
-#print(int(num_text) + 8)
 
-#user_number = input("Enter a number: ")
-#print (user_number + 10)  # This will cause an error because user_number is a string
-#print (int(user_number) + 10)
+a = 25
+b = 5
 
-#a = 25
-#b = 5
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
 
-#print(a + b)
-#print(a - b)
-#print(a * b)
-#print(a / b)
-#print(a // b)
-#print(a % b)
-#print(a ** b)
 
-#x = 10
-#y = "10"
 
-#print(x == 10)  # This will cause an error because X is not defined
-#print(x == y)
-#print(x == int(y))  # This will cause an error because X is not defined
+num1 = 'x'
+num2 = 'y'
+num3 = num1 + num2
 
-#print(True and False)
-#print(True or False)
-#print(not True)
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+print("The sum of", num1, "and", num2, "is:", num1 + num2)
