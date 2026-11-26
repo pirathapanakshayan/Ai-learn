@@ -1,4 +1,4 @@
-"""from random import random
+from random import random
 
 for i in range(0,11):
     print(i)
@@ -16,7 +16,7 @@ while count < 100:
 
 word = "programming"
 for letter in word:
-    print(letter)"""
+    print(letter)
 
 nums = [-12,-7,-45,-3,-28,-9]
 biggest = float("-inf")
@@ -25,7 +25,7 @@ for num in nums:
         biggest = num
 print(f"The biggest number is {biggest}")
 
-"""num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 factorial = 1
 for i in range(1, num + 1):
     factorial = factorial * i
@@ -43,5 +43,4 @@ for i in range(1,20):
     if i % 3 == 0:
         continue
     else:
-        print(i)"""
-
+        print(i)
