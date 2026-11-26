@@ -19,7 +19,7 @@ for letter in word:
     print(letter)
 
 nums = [-12,-7,-45,-3,-28,-9]
-biggest = float("-inf")
+biggest = nums[0]
 for num in nums:
     if num > biggest:
         biggest = num
