@@ -1,4 +1,4 @@
-nums = [45, 12, 78, 3, 90, 23]
+"""nums = [45, 12, 78, 3, 90, 23]
 
 nums.sort()
 print(nums)
@@ -36,20 +36,39 @@ for word in words:
 
 print(letter_words)
 
-my_dict = {"name": "Akshayan", "age": 22, "city": "srilanka", "hobby 1": "reading", "hobby 2": "coding"}
+my_dict = {"name": "Akshayan", "age": 22, "city": "srilanka", "hobby 1": ["reading", "coding"]}
 
-my_dict.values()
-
-print(my_dict.values())
+for key, value in my_dict.items():
+    print (key,value)
 
 marks = {"maths": 85, "science": 72, "english": 91}
-mark = marks.values()
 
-print(mark)
+for subject, score in marks.items():
+    print(subject,score)
 
 total_marks = 0
-for average in mark:
-    total_marks += average
+avarege = 0
+for avarege in marks.values():
+    total_marks = total_marks + avarege
 average_marks = total_marks / len(marks)
-print(average_marks)
+print(f"Average: {average_marks: .2f}")
 
+best_mark = 0
+best_subject = ""
+
+for subject, score in marks.items():
+    if score > best_mark:
+        best_mark = score
+        best_subject = subject
+print(best_mark,best_subject)"""
+
+text = "python is fun and python is easy"
+
+words = text.split()
+counts = {}
+
+for word in words:
+    if word in counts:
+        print(word)
+
+        
